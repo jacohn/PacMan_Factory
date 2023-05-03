@@ -4,7 +4,7 @@ Because, why not?
 
 ## About
 
- After a long day working in the factory, you come home, only to pass out while playing video games on the couch. You dream you are working in a factory, where your only job is to press a button that creates strange identical jaunty pacmen, who only desire to bounce around the walls at an alarming rate of speed.
+ After a long day working in the factory, you come home, only to pass out while playing video games on the couch. You dream you are working in a factory, where your only job is to press a button that creates strange identically jaunty pacmen, who only desire to bounce around the walls at an alarming rate of speed.
 
  ## Objective
 
