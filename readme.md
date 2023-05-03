@@ -6,7 +6,7 @@ Because, why not?
 
  After a long day working in the factory, you come home, only to pass out while playing video games on the couch. You dream you are working in a factory, where your only job is to press a button that creates strange identically jaunty pacmen, who only desire to bounce around the walls at an alarming rate of speed.
 
- ## Objective
+## Objective
 
  Your objective is to mash that Add PacMan button until your fingers ache and the 'Pacs slow to a crawl.  In the process, you will learn more about exactly how many pacmen your computer can handle.
 
@@ -18,7 +18,7 @@ Because, why not?
 - Recursive updating
 - DOM manipulation
 
-# Future Additions:
+## Future Additions
 
 - Buttons that work!
 - Better Graphics!
