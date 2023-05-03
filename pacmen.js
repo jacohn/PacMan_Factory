@@ -19,6 +19,7 @@ function makePac() {
   // returns an object with random values scaled {x: 33, y: 21}
   let direction = 0;
   let openMouth=0;
+  let count=0;
   let velocity = setToRandom(10); // {x:?, y:?}
   let position = setToRandom(200);
 
@@ -40,18 +41,22 @@ function makePac() {
     position,
     velocity,
     newimg,
+    direction,
+    openMouth,
+    count,
   };
 }
 
 function update() {
   // loop over pacmen array and move each one and move image in DOM
   pacMen.forEach((item) => {
+    item.count++;
     checkCollisions(item);
-    if(item.openMouth===0){
+    if(item.count%10==0 && item.openMouth===0){
       item.openMouth=1;
-    }else item.openMouth=0;
+    }else if(item.count%10==0) item.openMouth=0;
     console.log("item direction: " + item.direction+" item.openMouth: " + item.openMouth)
-     // item.newimg.src = pacArray[item.direction][item.openMouth];
+     item.newimg.src = pacArray[item.direction][item.openMouth];
      
 
     item.position.x += item.velocity.x;
